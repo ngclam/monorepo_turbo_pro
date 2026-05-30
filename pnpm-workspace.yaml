@@ -1,3 +1,21 @@
 packages:
   - "apps/*"
   - "packages/*"
+  - "services/*"
+  - "backend/*"
+catalog:
+  "@hookform/resolvers": ^5.4.0
+  axios: ^1.16.1
+  lodash: ^4.18.1
+  mobx: ^6.15.4
+  mobx-persist-store: ^1.1.8
+  mobx-react: ^9.2.2
+  mobx-react-lite: ^4.1.1
+  moment: ^2.30.1
+  react: 19.1.0
+  react-dom: 19.1.0
+  react-hook-form: ^7.76.1
+  socket.io-client: ^4.8.3
+  typescript: ^5.9.2
+  yup: ^1.7.1
+  zod: ^4.4.3
