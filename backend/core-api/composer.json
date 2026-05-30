@@ -1,0 +1,12 @@
+{
+    "name": "lm/core-api",
+    "authors": [
+        {
+            "name": "ngclam",
+            "email": "ngclam1711@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "*"
+    }
+}

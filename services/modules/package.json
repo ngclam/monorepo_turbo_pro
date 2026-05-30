@@ -1,28 +1,13 @@
 {
   "name": "@remix/services-modules",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./src/index.ts",
-      "default": "./src/index.ts"
-    }
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc --noEmit",
-    "lint": "eslint src --ext .ts,.tsx",
-    "check-types": "tsc --noEmit",
-    "clean": "rimraf dist .turbo"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@remix/commons": "workspace:*",
-    "@remix/services-api": "workspace:*"
-  },
-  "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "eslint": "catalog:",
-    "typescript": "catalog:"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
 }
