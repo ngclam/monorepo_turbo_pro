@@ -403,6 +403,14 @@ importers:
         specifier: ^8.0.12
         version: 8.0.14(@types/node@24.12.4)(jiti@2.7.0)
 
+  backend/socket: {}
+
+  packages/assets: {}
+
+  packages/commons: {}
+
+  packages/components: {}
+
   packages/eslint-config:
     devDependencies:
       '@eslint/js':
@@ -440,6 +448,12 @@ importers:
         version: 8.50.0(eslint@9.39.1(jiti@2.7.0))(typescript@5.9.2)
 
   packages/typescript-config: {}
+
+  services/api: {}
+
+  services/modules: {}
+
+  services/stores: {}
 
 packages:
 
