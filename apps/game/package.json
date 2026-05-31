@@ -1,0 +1,28 @@
+{
+  "name": "@remix/game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5176",
+    "build": "vite build",
+    "lint": "eslint .",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remix/components": "workspace:*",
+    "@tailwindcss/vite": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "vite": "catalog:"
+  },
+  "devDependencies": {
+    "@remix/eslint-config": "workspace:*",
+    "@remix/typescript-config": "workspace:*",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

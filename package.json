@@ -1,0 +1,25 @@
+{
+  "name": "remix-root",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "admin": "pnpm --filter @remix/admin dev",
+    "admin:build": "pnpm --filter @remix/admin build",
+    "demo1": "pnpm --filter @remix/demo1 dev",
+    "demo1:build": "pnpm --filter @remix/demo1 build",
+    "monitor": "pnpm --filter @remix/monitor dev",
+    "monitor:build": "pnpm --filter @remix/monitor build",
+    "game": "pnpm --filter @remix/game dev",
+    "game:build": "pnpm --filter @remix/game build",
+    "socket": "pnpm --filter @remix/socket dev"
+  },
+  "devDependencies": {
+    "turbo": "catalog:",
+    "typescript": "catalog:",
+    "eslint": "catalog:"
+  }
+}
